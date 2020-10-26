@@ -46,16 +46,20 @@ songplay_id, start_time, user_id, level, song_id, artist_id, session_id, locatio
 
 
 The following instructions are to run the pipeline :
-1.Run IaC file and ensure the cluster is up and running
+
+
+1.Run IaC file and ensure the cluster is up and running.
+
 2.Run create_tables.py to create tables.
+
 3.Run etl. py.
+
 4.Go to Amazon Redshift > Cluster > Query Editor> Preview Data to make sure all the tables were successfully created and data were loaded into it.
+
 5.Clean up cluster and resources.
 
 ![Screenshot](tables.png)
-
 **Refrences:**
-
 
 [Create AWS Redshift cluster using AWS python SDK](https://shravan-kuchkula.github.io/create-aws-redshift-cluster/#step-4-load-partitioned-data-from-s3-into-the-table-just-created)
 [Getting Started with Amazon Redshift
