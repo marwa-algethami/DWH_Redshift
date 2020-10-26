@@ -41,10 +41,8 @@ The following instructions are to run the pipeline:
 5.Clean up cluster and resources.
 
 ![Screenshot](tables.png)
-**Refrences:**
-
+**Refrences:**  
 [Create AWS Redshift cluster using AWS python SDK](https://shravan-kuchkula.github.io/create-aws-redshift-cluster/#step-4-load-partitioned-data-from-s3-into-the-table-just-created)  
-
 [Getting Started with Amazon Redshift
 ](https://aws.amazon.com/redshift/getting-started/?p=rs&bttn=hero&exp=b)  
 [Redshift Epochs and Timestamps](https://www.fernandomc.com/posts/redshift-epochs-and-timestamps/)
